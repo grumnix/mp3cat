@@ -2,7 +2,7 @@
   description = "Command line utility for concatenating MP3 files";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs?ref=nixos-unstable";
     flake-utils.url = "github:numtide/flake-utils";
 
     mp3cat_src.url = "github:dmulholl/mp3cat";
